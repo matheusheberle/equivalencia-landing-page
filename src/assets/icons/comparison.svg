@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <g stroke="#254D3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Folha esquerda -->
+    <rect x="3" y="9" width="20" height="46" rx="3"/>
+    <path d="M8 19h10"/>
+    <path d="M8 25h10"/>
+    <path d="M8 31h7"/>
+    <path d="M8 39h10"/>
+    <path d="M8 45h10"/>
+
+    <!-- Folha direita -->
+    <rect x="41" y="9" width="20" height="46" rx="3"/>
+    <path d="M46 19h10"/>
+    <path d="M46 25h10"/>
+    <path d="M46 31h7"/>
+    <path d="M46 39h10"/>
+    <path d="M46 45h10"/>
+
+    <!-- Seta superior: esquerda para direita -->
+    <path d="M25 24h14"/>
+    <path d="M34 20l5 4-5 4"/>
+
+    <!-- Seta inferior: direita para esquerda -->
+    <path d="M39 40H25"/>
+    <path d="M30 36l-5 4 5 4"/>
+
+  </g>
+</svg>

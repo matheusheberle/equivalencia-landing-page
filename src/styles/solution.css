@@ -1,0 +1,81 @@
+#solution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 4rem;
+    gap: 4rem;
+}
+
+#solution header {
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+    max-width: 33rem;
+}
+
+#solution p {
+    color: var(--second-text-color);
+}
+
+#solution strong {
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
+}
+
+#solution .even-columns {
+    gap: 2rem;
+}
+
+#solution section .card {
+    background: var(--light-gray);
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    max-width: 20.25rem;
+    min-height: 20rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    padding-top: 2rem;
+    gap: 1.5rem;
+}
+
+#solution section .card span {
+    display: flex;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#solution section .card div {
+    height: auto;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+#solution .card h3 {
+    font-size: 1.5rem;
+}
+
+#solution .card p {
+    padding-inline: 1.5rem;
+    color: var(--second-text-color);
+}
+
+#solution .card hr {
+    height: 6px;
+    background: var(--secondary-color);
+    width: 100%;
+    border: none;
+    margin-top: auto;
+}
+
+@media (width > 1280px) {
+    #solution header>span>h2 {
+        font-size: var(--fs-sm);
+        color: var(--primary-color);
+    }
+}
